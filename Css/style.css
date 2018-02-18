@@ -1,0 +1,161 @@
+.pull-right{
+	position:absolute;
+	right:20px; 
+	width:200px;
+	display:inline;
+   }
+
+nav{
+	background-color:gray;
+	padding:10px;
+
+    }
+
+nav a{
+	display:inline;
+	text-decoration:none;
+	color:white;
+     }
+   
+ nav a:hover{
+	   color:red;
+     }
+	 
+ body{
+	 margin:0px 0px 10px 0px;
+	 padding:10px;
+   }
+.landing{
+	text-align:center;
+	background-image:url("https://wallpaperlayer.com/img/2015/12/background-images-6200-6473-hd-wallpapers.jpg");
+	height:100vh;            /*jitna dikhayi deta hai utna hi color failega vh-viewport*/
+}
+
+.container{
+	 top:45%;
+	 left:20%;
+	 position:absolute;
+}
+
+/*2nd page*/
+.FlexCon1{
+	/*background-image:url("https://image.freepik.com/free-vector/blue-and-green-wavy-background_1035-7430.jpg");*/
+	background-color:#00ff7f;
+}
+
+.flex-container1{
+	margin:0px 350px 0px 350px;
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content:space-around;
+    height: 700px;
+    background-color: #00fa9a;
+}
+
+.flex-itemArt{
+	background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#flex-item1{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbc18f2B9tYSo0_-QBhrV7lGjbXbaEOuyL4aQ6H1k62MTfuLy");
+}
+#flex-item2{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESihzGzyjeGNUQEEjrmaRfpjaFyr2R1au8EqIo1r2l5S8heq-Xw");
+}
+#flex-item3{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfyz69cN91-ANDNq0Ra50etpN1bi4_2y_qeqb15DGuyCOqSgiiYg");
+}
+#flex-item4{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ZIQsLPJ8H6W2rL2etiB5oB1AIXsFwcFbREZU_jnRMAqe63Z4xg");
+}
+
+.FlexCon2{
+	/*background-image:url("https://image.freepik.com/free-vector/blue-and-green-wavy-background_1035-7430.jpg");*/
+	background-color:#9999ff;
+}
+.flex-container2{
+	display:flex;
+	height: 800px;
+    margin:0px 150px 0px 150px;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	overflow-y:scroll;
+	justify-content:space-around;
+	background-color: #cc9900;
+}
+.flex-itemPro div{
+	width:650px;
+	height:290px;
+	border:1px solid black;
+	margin:15px;
+}
+.flex-container2 h1{
+	font-variant:small-caps;
+	width:100%;
+	letter-spacing:40px;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+	font-size:60px;
+	margin:0px;
+	padding:10px;
+}
+	
+#port{
+background-image:url("file:///D:/Supriya/Music/portpage.png");
+}
+#login{
+background-image:url("file:///D:/Supriya/Music/newlogin.png");
+}
+#signup{
+background-image:url("file:///D:/Supriya/Music/signpage.png");
+}
+#spark{
+background-image:url("file:///D:/Supriya/Music/sparkpage.png");
+}
+#weather{
+background-image:url("file:///D:/Supriya/Music/weatherpage1.png");
+}
+#game{
+background-image:url("file:///D:/Supriya/Music/tictac.png");
+}
+/*page*/
+.skills{
+	height:53vh;
+}
+h1{
+	text-align:center;
+	letter-spacing:35px;
+	font-style:italic;
+	font-weight:bold;
+	font-size:60px;
+	margin:0px;
+	padding:10px;
+}
+p{
+	font-size:30px;
+}
+li{
+	list-style-type:square;
+	font-size:40px;	
+}
+.div{
+	height:120px;
+	background-color:aqua;
+	margin:0px;
+ }
+ /*about*/
+ .aboutus{
+   height:70vh; 
+   color:white;
+   background-color:black;
+  }
+  .head{
+	  font-style:oblique;
+	  margin:0px;
+  }
+ 
